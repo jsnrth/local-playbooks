@@ -1,15 +1,25 @@
 ---
 - name: install git
   homebrew: name=git state=latest
+  tags:
+    - git
 
 - name: make .zsh directory
   file: path=~/.zsh state=directory recurse=yes
+  tags:
+    - git
 
 - name: copy git functions
   copy: src=git.zsh dest=~/.zsh/git.zsh
+  tags:
+    - git
 
 - name: copy gitignore
   copy: src=gitignore dest=~/.gitignore
+  tags:
+    - git
 
 - name: copy gitconfig
   copy: src=gitconfig dest=~/.gitconfig
+  tags:
+    - git
