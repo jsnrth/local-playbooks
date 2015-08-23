@@ -54,11 +54,11 @@ autoload -U +X compinit && compinit
 autoload -U +X bashcompinit && bashcompinit
 
 # source /usr/local/etc/bash_completion.d/R
-source /usr/local/etc/bash_completion.d/cabal
+# source /usr/local/etc/bash_completion.d/cabal
 # source /usr/local/etc/bash_completion.d/git-completion.bash
 source /usr/local/etc/bash_completion.d/git-prompt.sh
 # source /usr/local/etc/bash_completion.d/hub.bash_completion.sh
-source /usr/local/etc/bash_completion.d/lein-completion.bash
+# source /usr/local/etc/bash_completion.d/lein-completion.bash
 # source /usr/local/etc/bash_completion.d/npm
 # source /usr/local/etc/bash_completion.d/scala
 source /usr/local/etc/bash_completion.d/tig-completion.bash
