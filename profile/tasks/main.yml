@@ -13,6 +13,7 @@
     - { src: "bash_profile", dest: "~/.bash_profile" }
     - { src: "misc.zsh", dest: "~/.zsh/misc.zsh" }
     - { src: "ssh.zsh", dest: "~/.zsh/ssh.zsh" }
+    - { src: "editorconfig", dest: "~/.editorconfig" }
   tags:
     - profile
 
@@ -34,12 +35,3 @@
     - wget
   tags:
     - profile
-
-- name: install profile configurations
-  copy: src={{item.src}} dest={{item.dest}}
-  with_items:
-    - { src: "editorconfig", dest: "~/.editorconfig" }
-  tags:
-    - profile
-    - development
-    - editorconfig
