@@ -23,7 +23,7 @@ print_git_prompt() {
             prompt="$prompt %{\e[31m%}✘%{\e[0m%}"
         fi
 
-        print "$prompt "
+        print " $prompt"
 
     fi
 }
