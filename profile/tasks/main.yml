@@ -17,6 +17,7 @@
     - { src: "irbrc", dest: "~/.irbrc" }
   tags:
     - profile
+    - profile-configs
 
 - name: install misc packages
   homebrew: name={{item}} state=latest
