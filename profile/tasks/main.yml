@@ -13,6 +13,8 @@
     - { src: "bash_profile", dest: "~/.bash_profile" }
     - { src: "misc.zsh", dest: "~/.zsh/misc.zsh" }
     - { src: "ssh.zsh", dest: "~/.zsh/ssh.zsh" }
+    - { src: "mysql.zsh", dest: "~/.zsh/mysql.zsh" }
+    - { src: "cqlsh.zsh", dest: "~/.zsh/cqlsh.zsh" }
     - { src: "editorconfig", dest: "~/.editorconfig" }
     - { src: "irbrc", dest: "~/.irbrc" }
   tags:
