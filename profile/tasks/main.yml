@@ -37,3 +37,10 @@
     - wget
   tags:
     - profile
+
+- name: setup passwordless sudo
+  become: yes
+  become_method: sudo
+  lineinfile: dest=/etc/sudoers state=present regexp='^%ADMIN ALL\=' line='%ADMIN ALL=(ALL) NOPASSWD:ALL' validate='visudo -cf %s'
+  tags:
+    - profile
