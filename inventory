@@ -2,5 +2,4 @@
 localhost
 
 [localhost:vars]
-ansible_python_interpreter=/usr/local/bin/python
 ask_sudo_pass=True
