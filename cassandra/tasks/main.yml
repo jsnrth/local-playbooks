@@ -1,0 +1,4 @@
+---
+- homebrew: name=cassandra state=latest
+  tags:
+    - cassandra

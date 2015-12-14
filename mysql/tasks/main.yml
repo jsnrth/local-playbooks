@@ -1,0 +1,4 @@
+---
+- homebrew: name=mysql state=latest
+  tags:
+    - mysql
