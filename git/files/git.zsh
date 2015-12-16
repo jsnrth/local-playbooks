@@ -105,10 +105,10 @@ git_cwd_is_clean() {
 
 git_pretty_log() {
     hash="%C(yellow)%h%C(reset)"
-    who="%C(white)%an%C(reset)"
-    when="%C(white)%ar%C(reset)"
+    who="%an%C(reset)"
+    when="%ar%C(reset)"
     refs="%C(blue)%d%C(reset)"
-    what="%s%C(reset)"
+    what="%C(white)%s%C(reset)"
 
     format="$hash $refs $what $who $when"
 
