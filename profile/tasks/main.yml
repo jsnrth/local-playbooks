@@ -37,5 +37,6 @@
     - tmux
     - tree
     - wget
+    - ngrok
   tags:
     - profile
