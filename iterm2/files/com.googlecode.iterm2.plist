@@ -31,7 +31,7 @@
 	<key>CopyLastNewline</key>
 	<false/>
 	<key>CopySelection</key>
-	<true/>
+	<false/>
 	<key>Custom Color Presets</key>
 	<dict>
 		<key>Solarized Dark</key>
@@ -972,9 +972,9 @@
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>641 226 570 391 0 0 1280 777 </string>
 	<key>NSWindow Frame Preferences</key>
-	<string>488 75 605 485 0 0 1440 877 </string>
+	<string>859 978 924 485 -688 800 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 22 1434 855 0 0 1440 877 </string>
+	<string>472 326 650 451 0 0 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>35 276 650 501 0 0 1280 777 </string>
 	<key>NeverWarnAboutShortLivedSessions_C81D062F-E0E2-411F-B742-D30A2D4225BC</key>
@@ -1580,9 +1580,9 @@
 			<key>Selection Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.19370138645172119</real>
+				<real>0.27174085378646851</real>
 				<key>Green Component</key>
-				<real>0.15575926005840302</real>
+				<real>0.21854470670223236</real>
 				<key>Red Component</key>
 				<real>0.0</real>
 			</dict>
@@ -2324,11 +2324,11 @@
 			<key>Selection Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.19370138645172119</real>
+				<real>0.37425032258033752</real>
 				<key>Green Component</key>
-				<real>0.15575926005840302</real>
+				<real>0.10225601494312286</real>
 				<key>Red Component</key>
-				<real>0.0</real>
+				<real>0.02467832900583744</real>
 			</dict>
 			<key>Semantic History</key>
 			<dict>
@@ -3068,11 +3068,11 @@
 			<key>Selection Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.19370138645172119</real>
+				<real>0.067169718444347382</real>
 				<key>Green Component</key>
-				<real>0.15575926005840302</real>
+				<real>0.047120600938796997</real>
 				<key>Red Component</key>
-				<real>0.0</real>
+				<real>0.3823390007019043</real>
 			</dict>
 			<key>Semantic History</key>
 			<dict>
@@ -3812,11 +3812,11 @@
 			<key>Selection Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.19370138645172119</real>
+				<real>0.324776291847229</real>
 				<key>Green Component</key>
-				<real>0.15575926005840302</real>
+				<real>0.010717046447098255</real>
 				<key>Red Component</key>
-				<real>0.0</real>
+				<real>0.33481296896934509</real>
 			</dict>
 			<key>Semantic History</key>
 			<dict>
@@ -3961,7 +3961,7 @@
 	<key>NoSyncTimeOfLastPromo</key>
 	<real>460316259.07124799</real>
 	<key>NoSyncTimeOfLastPromoDownload</key>
-	<real>473609550.19553399</real>
+	<real>475536963.06296998</real>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
 	<key>OpenArrangementAtStartup</key>
@@ -4026,7 +4026,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2016-01-04T14:12:27Z</date>
+	<date>2016-01-26T21:35:48Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>Show Toolbelt</key>
