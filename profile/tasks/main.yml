@@ -16,6 +16,7 @@
     - { src: "mysql.zsh", dest: "~/.zsh/mysql.zsh" }
     - { src: "cqlsh.zsh", dest: "~/.zsh/cqlsh.zsh" }
     - { src: "editorconfig", dest: "~/.editorconfig" }
+    - { src: "vo.zsh", dest: "~/.zsh/vo.zsh" }
     - { src: "irbrc", dest: "~/.irbrc" }
     - { src: "hushlogin", dest: "~/.hushlogin" }
   tags:

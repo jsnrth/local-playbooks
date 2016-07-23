@@ -5,6 +5,7 @@
   excludesfile = ~/.gitignore
   whitespace = trailing-space,space-before-tab
   quotepath = false
+  pager = diff-so-fancy | less --tabs=4 -RFX
 [apply]
   whitespace = warn
 [color]
@@ -14,6 +15,8 @@
   ui = true
 [diff]
   mnemonicprefix = true
+[rerere]
+  enabled = true
 [alias]
   b = branch
   ru = remote update
@@ -37,6 +40,10 @@
   cp = cherry-pick -n
   x = "!/usr/bin/env gitx"
   track = "git_track"
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
 [push]
   # Only push branches that have been set up to track a remote branch.
   default = current
