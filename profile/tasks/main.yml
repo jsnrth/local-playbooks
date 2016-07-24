@@ -27,6 +27,7 @@
   homebrew: name={{item}} state=latest
   with_items:
     - cloc
+    - diff-so-fancy
     - direnv
     - dos2unix
     - editorconfig
@@ -34,7 +35,6 @@
     - readline
     - rename
     - sl
-    - thefuck
     - tig
     - tmux
     - tree
