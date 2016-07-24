@@ -108,7 +108,7 @@ git_pretty_log() {
     who="%an%C(reset)"
     when="%ar%C(reset)"
     refs="%C(blue)%d%C(reset)"
-    what="%C(white)%s%C(reset)"
+    what="%C(black)%s%C(reset)"
 
     format="$hash $refs $what $who $when"
 
