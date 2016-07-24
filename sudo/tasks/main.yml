@@ -1,18 +1,16 @@
 ---
+# Needs to be run with --ask-become-pass, until this runs
 - name: setup passwordless sudo
   become: yes
   become_method: sudo
   lineinfile: dest=/etc/sudoers state=present regexp='^%ADMIN ALL\=' line='%ADMIN ALL=(ALL) NOPASSWD:ALL' validate='visudo -cf %s'
   tags:
-    - profile
     - sudo
 
 - homebrew_tap: name=ravenac95/sudolikeaboss state=present
   tags:
-    - profile
     - sudo
 
 - homebrew: name=sudolikeaboss state=latest
   tags:
-    - profile
     - sudo
