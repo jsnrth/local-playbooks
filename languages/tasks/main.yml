@@ -5,8 +5,10 @@
     - cabal-install
     - elixir
     - erlang
+    - gnu-prolog
     - go
     - groovy
+    - io
     - lua
     - node
     - python
