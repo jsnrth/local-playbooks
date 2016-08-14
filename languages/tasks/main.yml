@@ -1,5 +1,5 @@
 ---
-- name: install languages
+- name: install stuff
   homebrew: name={{item}} state=latest
   with_items:
     - cabal-install
@@ -7,27 +7,27 @@
     - erlang
     - gnu-prolog
     - go
+    - gradle
     - groovy
     - io
     - lua
+    - leiningen
+    - maven
     - node
+    - npm
     - python
     - ruby
     - rust
-    - scala
-
-- name: install package managers
-  homebrew: name={{item}} state=latest
-  with_items:
-    - gradle
-    - leiningen
-    - maven
-    - npm
     - sbt
+    - scala
     - typesafe-activator
+  tags:
+    - languages
 
-- name: setup .zsh directory
+- name: setup zsh config directory
   file: path=~/.zsh state=directory recurse=yes
+  tags:
+    - languages
 
 - name: install language profile configurations
   copy: src={{item.src}} dest={{item.dest}}
@@ -37,3 +37,5 @@
     - { src: 'groovy.zsh', dest: '~/.zsh/groovy.zsh' }
     - { src: 'gemrc', dest: '~/.gemrc' }
     - { src: 'irbrc', dest: '~/.irbrc' }
+  tags:
+    - languages
