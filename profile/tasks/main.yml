@@ -42,3 +42,13 @@
     - wget
   tags:
     - profile
+
+- name: tap ravenac95
+  homebrew_tap: name=ravenac95/sudolikeaboss state=present
+  tags:
+    - profile
+
+- name: install sudolikeaboss
+  homebrew: name=sudolikeaboss state=latest
+  tags:
+    - profile

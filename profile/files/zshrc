@@ -5,7 +5,7 @@ promptinit
 autoload -U colors && colors
 
 autoload -Uz compinit
-compinit
+compinit -u
 
 export TERM='xterm-color'
 
