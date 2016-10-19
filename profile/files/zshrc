@@ -4,9 +4,6 @@ autoload -U promptinit
 promptinit
 autoload -U colors && colors
 
-autoload -Uz compinit
-compinit -u
-
 export TERM='xterm-color'
 
 # just reset the fucking path so I know what's on it
@@ -50,7 +47,7 @@ alias vs='vagrant global-status'
 
 alias fuck='eval $(thefuck $(fc -ln -1 | tail -n 1)); fc -R'
 
-autoload -U +X compinit && compinit
+autoload -U +X compinit && compinit -u
 autoload -U +X bashcompinit && bashcompinit
 
 # source /usr/local/etc/bash_completion.d/R
