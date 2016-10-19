@@ -19,6 +19,7 @@
     - { src: "vo.zsh", dest: "~/.zsh/vo.zsh" }
     - { src: "irbrc", dest: "~/.irbrc" }
     - { src: "hushlogin", dest: "~/.hushlogin" }
+    - { src: "gemrc", dest: "~/.gemrc" }
   tags:
     - profile
     - profile-configs

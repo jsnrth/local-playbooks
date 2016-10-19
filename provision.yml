@@ -7,7 +7,7 @@
     - docker
     - git
     - jvm
-    - languages
+    # - languages
     - profile
     - vim
     - mysql
