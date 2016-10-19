@@ -4,12 +4,12 @@
   connection: local
   roles:
     - ansible
-    - docker
+    # - docker
     - git
-    - jvm
+    # - jvm
     # - languages
     - profile
     - vim
-    - mysql
-    - cassandra
+    # - mysql
+    # - cassandra
     - sudo
