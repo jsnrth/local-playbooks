@@ -20,6 +20,7 @@
     - { src: "irbrc", dest: "~/.irbrc" }
     - { src: "hushlogin", dest: "~/.hushlogin" }
     - { src: "gemrc", dest: "~/.gemrc" }
+    - { src: "curlrc", desc: "~/.curlrc" }
   tags:
     - profile
     - profile-configs
@@ -52,3 +53,6 @@
   homebrew: name=sudolikeaboss state=latest
   tags:
     - profile
+
+- name: install curl
+  homebrew: name=curl state=latest install_options="--with-openssl"
